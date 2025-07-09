@@ -18,6 +18,7 @@ from .clustering.kmeans import KMeans
 
 # anomaly detection
 from .anomaly.gaussian_anomaly import GaussianAnomalyDetector
+from .tree import DecisionTreeClassifier
 
 __all__ = [
     # preprocessing
@@ -33,4 +34,5 @@ __all__ = [
     "KMeans",
     # anomaly
     "GaussianAnomalyDetector",
+    "DecisionTreeClassifier",
 ]
